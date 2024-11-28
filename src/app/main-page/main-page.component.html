@@ -1,0 +1,60 @@
+<div class="flex min-h-screen bg-gray-100 p-4">
+
+  <!-- Div da Imagem -->
+  <div class="w-1/4 h-screen flex">
+    <img src="../../../public/images/Capa.webp" alt="Imagem da clínica" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="flex flex-col p-8">
+
+    <div class="mb-12 text-left">
+      <h1 class="text-4xl font-bold text-blue-800 mb-2 text-left">
+        Clínica Saúde e Vida
+      </h1>
+    </div>
+
+    <!-- Grid para os cards -->
+    <div class="grid grid-cols-3 gap-8">
+
+      <div class="w-90 h-60 p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-2">
+        <h2 class="text-2xl font-bold text-blue-800">Médicos/Clínicas</h2>
+        <p class="text-gray-600">Gerencie médicos e clínicas cadastrados na aplicação. Adicione, edite ou remova médicos e consulte detalhes completos, como especialidades e horários de atendimento.
+        </p>
+        <a routerLink="/doctors" class="mt-4 block text-blue-600 hover:text-blue-800">Ver mais &rarr;</a>
+      </div>
+
+      <div class="w-90 h-60 p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-2">
+        <h2 class="text-2xl font-bold text-blue-800">Contatos</h2>
+        <p class="text-gray-600">Acompanhe os contatos entre pacientes e clínicos cadastrados. Visualize detalhes de consultas, mensagens e registros importantes relacionados ao atendimento dos
+          pacientes.
+        </p>
+        <a routerLink="/contacts" class="mt-4 block text-blue-600 hover:text-blue-800">Ver mais &rarr;</a>
+      </div>
+
+      <div class="w-90 h-60 p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-2">
+        <h2 class="text-2xl font-bold text-blue-800">Pacientes</h2>
+        <p class="text-gray-600">Gerencie as informações dos pacientes, incluindo histórico de saúde, diagnósticos anteriores e planos de tratamento. Acompanhe seu progresso ao longo do tempo.</p>
+        <a routerLink="/patients" class="mt-4 block text-blue-600 hover:text-blue-800">Ver mais &rarr;</a>
+      </div>
+
+      <div class="w-90 h-60 p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-2">
+        <h2 class="text-2xl font-bold text-blue-800">Anamnese</h2>
+        <p class="text-gray-600">Cadastre e armazene informações detalhadas sobre a anamnese dos pacientes, ajudando a entender melhor o histórico médico e as necessidades para tratamentos futuros.
+        </p>
+        <a routerLink="/anamnese" class="mt-4 block text-blue-600 hover:text-blue-800">Ver mais &rarr;</a>
+      </div>
+
+      <div class="w-90 h-60 p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-2">
+        <h2 class="text-2xl font-bold text-blue-800">Atendimento</h2>
+        <p class="text-gray-600">Visualize e gerencie os atendimentos realizados com os pacientes. Acompanhe datas, horários, tipos de consulta e evolução do tratamento dos pacientes.</p>
+        <a routerLink="/attendances" class="mt-4 block text-blue-600 hover:text-blue-800">Ver mais &rarr;</a>
+      </div>
+
+      <div class="w-90 h-60 p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-2">
+        <h2 class="text-2xl font-bold text-blue-800">Consultas</h2>
+        <p class="text-gray-600">Agende e acompanhe as consultas realizadas com os pacientes. Mantenha registros de datas, diagnósticos e tratamentos recomendados.</p>
+        <a routerLink="/consultations" class="mt-4 block text-blue-600 hover:text-blue-800">Ver mais &rarr;</a>
+      </div>
+
+
+    </div>
