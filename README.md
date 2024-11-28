@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# gen-AI-ClinicaleSaude-FrontEnd
-Modelo simples para demonstrar o acesso ao Backend em JAVA. Esse FrontEnd desenvolvido em Angular.
-=======
 # ProjectFrontEndClinicalCapgemini
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
